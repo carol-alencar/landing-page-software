@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body {
+    font-size: 100%;
+    background: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+    padding-left: 23px;
+    
+}
+
+.logo-homolog{
+   
+    
+    height: 71px;
+}
+
+.barra-navegacao{
+    display: flex;
+    gap: 50px;
+    padding: 80px;
+    }
+
+.barra-navegacao-item{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.barra-navegacao-item-a-parte{
+    text-align: center;
+    height: 32px;
+    width: 103px;
+    color: #fff;
+    background-color: #D6000D;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.barra-navegacao-item-a-parte:hover{
+    background-color: black;
+    color: #fff;
+}
+.conteudo{
+    margin-bottom: 48px;
+    
+}
+ .conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.informacoes-principais{
+   display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.img-principal{
+    height: 408px;
+    margin-top: 51px;
+}
+
+.nome-empresa{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+.subtitulo-empresa{
+    display: flex;
+    align-items: center;
+    color: #D6000D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.orcamento-botao{
+    background-color: #D6000D;
+    color: #fff;
+    border-radius: 20px;
+    width: 272px;
+    height: 62px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.orcamento-botao:hover{
+    background-color: black;
+    color: #fff;
+}
+.conteudo-2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 300px;
+    padding-left: 76px;
+    
+}
+
+.imagem-digitando{
+    height: 441px;
+    margin-left: 176px;
+}
+
+.input-telefone{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.solicitar-telefone{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 82px;
+    padding-bottom: 21px;
+    padding-top: 48px;
+    
+}
+
+.botao-config{
+    display: flex;
+    flex-direction: row;
+}
+.inserir-telefone{
+    padding-left: 24px;
+    margin-top: 10px;
+    border-radius: 7px;
+    width: 259px;
+    height: 34px;
+    background-color: #DCDCDC;
+    margin-left: 82px;
+    border: none;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao-ligamos{
+    margin-top: 5px;
+    height: 41px;
+    width: 235px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: #D6000D;
+    color: #fff;
+    border: none;
+    margin-left: 53px;
+    cursor: pointer;
+    
+}
+
+.botao-ligamos:hover{
+background-color: black;
+color: #fff;
+}
+
+.fa-solid{
+    color: #D6000D;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    height: 530px;
+    background-color: #000;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.imagem-dp{
+    display: flex;
+    justify-content: center;
+    
+}
+.depoimento-foto-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+
+.nome-depoimento{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.depoimento-texto-1{
+    
+    text-align: center;
+    color:#ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.desk{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    
+}
+
+.btn{
+    margin-top: 58px;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: #D6000D;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 1s;
+    background-color: #ea3d49;
+    color: #fff;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-1{
+    width: 300px;
+    height: 530px;
+    background-color: #000;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.imagem-dp-1{
+    display: flex;
+    justify-content: center;
+    
+}
+.depoimento-foto-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+
+.nome-depoimento-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.depoimento-texto-2{
+    
+    text-align: center;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.desk-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+
+.btn-1{
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s;
+    background-color: #D6000D;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    transition: 1s;
+    background-color: #ea3d49;
+    color: #fff;
+}
+.button-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+
+.logo-footer{
+    height: 71px;
+    margin-left: 20px;
+    margin-top: 55px;
+    height: 71px;
+    background-color: #000;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+   padding: 48px;
+   bottom: 0px;
+   width: 100%;
+   background-color: #000; 
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.main-content{
+
+    display: flex;
+
+}
+
+.left-box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+
+}
+
+.h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform:uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0 ;
+
+}
+
+.social{
+    margin: 20px 0 0 0 ;
+
+}
+
+.social a{
+   padding: 0 2px;
+
+}
+
+.social a span{
+ width: 36px;
+ height: 36px;
+ background: #fff;
+ text-align: center;
+ line-height: 40px;
+ border-radius: 5px;
+ font-size: 18px;
+transition: 0.3s;
+border: none;
+}
+
+.social a span:hover{
+    background: #D6000D;
+}
+
+.center-box.p{
+text-align: justify;
+
+}
+
+.fas{
+    font-size: 17px;
+    background: #D6000D;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.fas:hover{
+    background: #ea3d49;
+    
+}
+
+.center .content .text{
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.phone{
+    margin: 10px 0;
+
+}
+
+.msg{
+    margin-top: 10px;
+}
+
+.right-box{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 40px;
+    margin-left: 230px;
+    
+    
+}
+
+.caixa-email{
+    width: 300px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.mensagem-caixa{
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+}
+
+.botao-footer{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #D6000D;
+    color: #fff;
+    width: 96px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-footer:hover{
+    background-color: #ea3d49;
+}
+
+@media screen and (max-width: 1330px) {
+    .cabecalho{
+        display: none;
+    }
+    .body{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }   
+
+    @media screen and (max-width:1064px){
+        .body{
+            width: 90%;
+            height: auto;
+        }
+        
+        .body{
+            flex-direction: column;
+            overflow-y: scroll;
+            flex-wrap: nowrap;
+            max-height: 10rem;
+            padding-right: 5rem;
+        }
+        .gender-input{
+            margin-top: 2rem;
+        }
+
+        .gender-group{
+            flex-direction: column;
+           
+        }
+
+        .gender-input{
+            margin-top:0.5rem;
+        }
+    }
+}

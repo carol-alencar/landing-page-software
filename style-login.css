@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+:root{
+    --default-color: #D6000D;
+
+}
+::selection{
+    background-color: var(--default-color);
+    color: #ffff;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 40px;
+}
+
+.container{
+    max-width: 850px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+    border-radius: 20px;
+
+}
+.container .login-form .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container .login-form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background-color: var(--default-color);
+}
+
+.fotgot{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#login-form {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    border: none;
+}
+
+.input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  
+}
+.input-box .input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    
+
+}
+.container .login-form .input-box .input:focus,
+.container .login-form .input-box .input:valid{
+    border-color: var(--default-color);
+
+}
+.container .login-form .input-box .input[type="submit"]{
+    background-color: var(--default-color);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+} */
+
+.container .login-form .input-box{
+    position: absolute;
+    color: var(--default-color);
+    font-size: 17px;
+    
+} 
+.input-box{
+    padding-top: 10px;
+}
+.container .login-form .forgot a{
+    color: var(--default-color);
+    text-decoration: none;
+    margin-left: 10px;
+}
+.fa{
+    margin-right: 10px;
+    color: #D6000D;
+}
+
+.fa:hover{
+    color: #000;
+}
+.divider{
+    padding-top: 20px;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+
+.midias-sociais{
+    text-align: center;
+}
+
+.midias-sociais:hover{
+    color: #000;
+}
+
+.container .login-form .midias-sociais{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.container .login-form .midias-sociais i:hover{
+    color: var(--default-color)
+}
+
+.container .login-form .sigup-text a{
+ color: var(--default-color);
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.container .login-img{
+    width: 50%;
+}
+
+.input-submit-caixa {
+    color: #fff;
+    cursor: pointer;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #D6000D;
+    width: 247px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.input-submit-caixa:hover{
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width:800px){
+    .login-img{
+        display: none;
+    }
+}
+.caixa-input{
+padding-right: 18px;
+    margin-left: 18px;
+   
+}
+.caixa-input-password{
+   
+    margin-left: 18px;
+   border: none;
+}
+.caixa-input-email{
+
+    margin-left: 18px;
+   border: none;
+   margin-top: 10px;
+   border-bottom: #000;
+}
+.signup-text{
+    text-align: center;
+    justify-content: center;
+    
+    color: #333;
+}
+
+.input-box-email{
+   padding-top: 30px;
+    margin-bottom: 26px;
+    margin-top: 21px;
+
+}
+
+.input-box-password{
+    margin-top: 20px;
+}
